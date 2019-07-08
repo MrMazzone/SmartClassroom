@@ -4,7 +4,7 @@ def classify(text):
     """
     This function will pass your text to the machine learning model and return the top result with the highest confidence
     """
-    key = "ce582c70-7c25-11e9-803f-7dddc094c816388cabf8-47c9-4dde-9c57-ee4932edcc72"
+    key = "***PASTE Your API Key HERE***"
     url = "https://machinelearningforkids.co.uk/api/scratch/"+ key + "/classify"
 
     response = requests.get(url, params={ "data" : text })
